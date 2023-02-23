@@ -8,3 +8,6 @@
  4. Démarrer Xampp Control Panel(Start apache et mySql);
  5. (optionnel)Installer les bases de donnée dans mySql si nécessaire:->mySQL->admin;
  6. Dans la barre de navigation, taper localhost + le titre du dossier que l'on souhaite voir(localhost/...);
+
+
+ (test commit)
