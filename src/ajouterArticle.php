@@ -31,6 +31,7 @@ if (!empty($_POST)){
       //ici, on crée une variable qui contient notre requête
       $request = "INSERT INTO articles ( nom, image, description, prix, taille) VALUES (:nom, :image, :description, :prix, :taille)";
 
+      $request2 = "INSERT INTO articles ( nom, image, description, prix, taille) VALUES (:nom, :image, :description, :prix, :taille)";
         //on prepare la requete a executer dans la bdd
         $response =$pdo->prepare($request);
         //* ici on execute la requête en remplaçant les marqueurs (:nom, :image etc....) par les valeurs de notre tableau data
