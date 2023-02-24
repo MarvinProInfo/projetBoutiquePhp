@@ -41,7 +41,7 @@ CREATE TABLE `articles` (
 --
 
 INSERT INTO `articles` (`id`, `nom`, `prix`, `description`, `image`, `taille`) VALUES
-(1, 'Fr', 105.5, 'FRA', '1602202315360063ee3f509ac62kisspng-france-germany-english-icon-france-flag-png-photos-5a7554d5c89c65.9208819915176388698217.png', 'xl');
+(1, 'Fr', 125, 'FRA', '1602202315360063ee3f509ac62kisspng-france-germany-english-icon-france-flag-png-photos-5a7554d5c89c65.9208819915176388698217.png', 'xl');
 
 --
 -- Index pour les tables déchargées
