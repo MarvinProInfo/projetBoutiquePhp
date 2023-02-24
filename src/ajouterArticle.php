@@ -33,6 +33,7 @@ if (!empty($_POST)){
       $request = "INSERT INTO articles ( nom, image, description, prix, taille) VALUES (:nom, :image, :description, :prix, :taille)";
       $request2 = "INSERT INTO articles ( nom, image, description, prix, taille) VALUES (:nom, :image, :description, :prix, :taille)";
 
+      $request2 = "INSERT INTO articles ( nom, image, description, prix, taille) VALUES (:nom, :image, :description, :prix, :taille)";
         //on prepare la requete a executer dans la bdd
         $response =$pdo->prepare($request);
 
