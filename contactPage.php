@@ -9,7 +9,7 @@
 <body>
     <?php
     
-    echo "<h1>Page de Contact</h1>";
+    echo "<h2>Page de Contact</h2>";
     
     ?>
 </body>
