@@ -1,8 +1,11 @@
 <?php
+
 require_once ("../Inclusion/header.php");
+
 ?>
 
 <?php
+
 // debug($_POST);
 //On verifie que le formulaire à  été envoyer
 if (!empty($_POST)){
@@ -45,6 +48,7 @@ if (!empty($_POST)){
     }
   }
 }
+
 ?>
 
 <div class="container">
@@ -81,11 +85,14 @@ if (!empty($_POST)){
           </div>
 
           <button type="submit" class="btn btn-primary mt-5">Ajouter</button>
+
         </fieldset>
       </form>
 </div>
 
 
 <?php
+
 require_once ("../Inclusion/footer.php");
+
 ?>
